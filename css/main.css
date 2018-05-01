@@ -5,6 +5,54 @@
  * Site Styles
  *****************************************************************************/
 
+aside#social {
+    background: lime;
+    width: 200px;
+    height: auto;
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    cursor: pointer;
+}
+
+ul.social-links {
+    display: none;
+}
+aside#social:hover ul.social-links {
+    display: block;
+}
+
  html {
-     color: green;
+     margin: 0;
+     padding: 0;
+ }
+ header {
+     height: 300px;
+     background: url(../img/monkaa_bluemonkey.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ 
+ footer {
+     background: grey;
+ }
+ 
+ section {
+     padding-top: 50px;
+     padding-bottom: 25px;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ 
+ section#watch {
+     background: yellow;
+ }
+ 
+ section#about {
+     background: cornflowerblue;
+ }
+ 
+ section#listen {
+     background: violet;
  }

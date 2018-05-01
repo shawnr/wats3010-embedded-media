@@ -7,8 +7,8 @@
         <title>Monkaa: Watch and Download the animated short film</title>
         <meta name="description" content="Monkaa is a blue-furred, pink-faced monkey who consumes a crystallized meteorite, making him invincibly strong and too hot to handle. Watch and download the animated short film here--for free!">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- TODO: Make a favicon that better represents the page. -->
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/main.css">
     </head>
 
@@ -50,8 +50,11 @@
 
         <section id="watch">
             <h2>Watch</h2>
-            <!-- TODO: Embed the .webm and .mp4 video with full controls for a
-                 convenient and attractive video viewing experience. -->
+            <video controls>
+                <source src="media/video/monkaa_1080p.webm" type="video/webm">
+                <source src="media/video/monkaa_1080p.mp4" type="video/mp4">
+                <p>Your browser does not support HTML5 Video.</p>
+            </video>
 
             <!-- TODO: Style an elegant download link to download the video. -->
             <h3>Download the video</h3>
@@ -67,6 +70,10 @@
             <h2>Listen</h2>
             <!-- TODO: Embed an audio player so users can play back the
                  soundtrack MP3 directly on the page. -->
+            <audio controls>
+                <source src="media/audio/monkaa_soundtrack.mp3" type="audio/mp3">
+                <p>Your browser does not support HTML5 audio playback.</p>
+            </audio>
 
             <!-- TODO: Style an elegant download link to download the video. -->
             <p>
@@ -86,17 +93,17 @@
                      each headshot below. Images are located in the
                      ``img/weybec/`` directory. -->
                 <li>
-                    <img class="headshot" src="TODO" alt="Pratik Solanki headshot"><br>
+                    <img class="headshot" src="img/weybec/pratik_solanki.jpg" alt="Pratik Solanki headshot"><br>
                     Pratik Solanki<br>
                     Co-Founder
                 </li>
                 <li>
-                    <img class="headshot" src="TODO" alt="Nita Ravalji headshot"><br>
+                    <img class="headshot" src="img/weybec/Nita-ravalji1.jpg" alt="Nita Ravalji headshot"><br>
                     Nita Ravalji<br>
                     Co-Founder
                 </li>
                 <li>
-                    <img class="headshot" src="TODO" alt="Niyal Parmar headshot"><br>
+                    <img class="headshot" src="img/weybec/niyal_parmar.jpg" alt="Niyal Parmar headshot"><br>
                     Niyal Parmar<br>
                     Co-Founder
                 </li>
